@@ -2,4 +2,19 @@ package com.xpo.ltl.proinventory.dto;
 
 public class VoidProRange {
 
+	String proPrefix;
+	String proSuffix;
+	public String getProPrefix() {
+		return proPrefix;
+	}
+	public void setProPrefix(String proPrefix) {
+		this.proPrefix = proPrefix;
+	}
+	public String getProSuffix() {
+		return proSuffix;
+	}
+	public void setProSuffix(String proSuffix) {
+		this.proSuffix = proSuffix;
+	}
+	
 }
