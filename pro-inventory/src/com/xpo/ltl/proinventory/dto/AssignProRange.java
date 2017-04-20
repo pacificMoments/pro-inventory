@@ -8,7 +8,14 @@ public class AssignProRange {
 	String proSuffix;
 	String proType;
 	Calendar effectiveDt;
+	String assignType;
 	
+	public String getAssignType() {
+		return assignType;
+	}
+	public void setAssignType(String assignType) {
+		this.assignType = assignType;
+	}
 	public Calendar getEffectiveDt() {
 		return effectiveDt;
 	}
