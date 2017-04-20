@@ -1,6 +1,6 @@
 package com.xpo.ltl.proinventory.dto;
 
-public class VoidProRange {
+public class AssignProRange {
 
 	String proPrefix;
 	String proSuffix;
@@ -16,5 +16,4 @@ public class VoidProRange {
 	public void setProSuffix(String proSuffix) {
 		this.proSuffix = proSuffix;
 	}
-	
 }
