@@ -4,6 +4,14 @@ public class AssignProRange {
 
 	String proPrefix;
 	String proSuffix;
+	String proType;
+	
+	public String getProType() {
+		return proType;
+	}
+	public void setProType(String proType) {
+		this.proType = proType;
+	}
 	public String getProPrefix() {
 		return proPrefix;
 	}
