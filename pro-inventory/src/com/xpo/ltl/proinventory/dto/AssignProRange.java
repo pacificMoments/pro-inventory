@@ -1,11 +1,20 @@
 package com.xpo.ltl.proinventory.dto;
 
+import java.util.Calendar;
+
 public class AssignProRange {
 
 	String proPrefix;
 	String proSuffix;
 	String proType;
+	Calendar effectiveDt;
 	
+	public Calendar getEffectiveDt() {
+		return effectiveDt;
+	}
+	public void setEffectiveDt(Calendar effectiveDt) {
+		this.effectiveDt = effectiveDt;
+	}
 	public String getProType() {
 		return proType;
 	}
