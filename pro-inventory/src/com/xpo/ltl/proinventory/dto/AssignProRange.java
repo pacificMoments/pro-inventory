@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class AssignProRange {
 
-	String proPfx;
+	String proPrefix;
 	String proSuffix;
 	String proType;
 	Calendar effectiveDt;
@@ -21,11 +21,11 @@ public class AssignProRange {
 	public void setProType(String proType) {
 		this.proType = proType;
 	}
-	public String getProPfx() {
-		return proPfx;
+	public String getProPrefix() {
+		return proPrefix;
 	}
-	public void setProPfx(String proPfx) {
-		this.proPfx = proPfx;
+	public void setProPrefix(String proPrefix) {
+		this.proPrefix = proPrefix;
 	}
 	public String getProSuffix() {
 		return proSuffix;
