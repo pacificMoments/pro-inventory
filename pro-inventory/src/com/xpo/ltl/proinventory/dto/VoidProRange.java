@@ -8,6 +8,7 @@ public class VoidProRange {
 	String proSuffix;
 	String proTyp;
 	Calendar effectiveDate;
+	String assignType;
 	
 	public String getProPrefix() {
 		return proPrefix;
@@ -32,6 +33,12 @@ public class VoidProRange {
 	}
 	public void setEffectiveDate(Calendar effectiveDate) {
 		this.effectiveDate = effectiveDate;
+	}
+	public String getAssignType() {
+		return assignType;
+	}
+	public void setAssignType(String assignType) {
+		this.assignType = assignType;
 	}
 
 }
