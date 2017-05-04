@@ -10,7 +10,7 @@ public class AssignProRange {
 	Calendar effectiveDate;
 	String assignType;
 	String billTypeCode;
-	String updateTypeCode;
+	String updateTypeCd;
 	
 	public String getAssignType() {
 		return assignType;
@@ -47,11 +47,5 @@ public class AssignProRange {
 	}
 	public void setBillTypeCode(String billTypeCode) {
 		this.billTypeCode = billTypeCode;
-	}
-	public String getUpdateTypeCode() {
-		return updateTypeCode;
-	}
-	public void setUpdateTypeCode(String updateTypeCode) {
-		this.updateTypeCode = updateTypeCode;
 	}
 }

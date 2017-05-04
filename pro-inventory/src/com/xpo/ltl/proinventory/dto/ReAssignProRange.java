@@ -1,13 +1,10 @@
 package com.xpo.ltl.proinventory.dto;
 
-import java.util.Calendar;
-
-public class VoidProRange {
+public class ReAssignProRange {
 
 	String proPrefix;
 	String proSuffix;
 	String proType;
-	
 	public String getProPrefix() {
 		return proPrefix;
 	}
