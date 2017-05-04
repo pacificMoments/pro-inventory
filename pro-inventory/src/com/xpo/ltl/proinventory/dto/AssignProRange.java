@@ -7,7 +7,7 @@ public class AssignProRange {
 	String proPrefix;
 	String proSuffix;
 	String proType;
-	Calendar effectiveDt;
+	Calendar effectiveDate;
 	String assignType;
 	String billTypeCode;
 	
@@ -17,11 +17,11 @@ public class AssignProRange {
 	public void setAssignType(String assignType) {
 		this.assignType = assignType;
 	}
-	public Calendar getEffectiveDt() {
-		return effectiveDt;
+	public Calendar getEffectiveDate() {
+		return effectiveDate;
 	}
-	public void setEffectiveDt(Calendar effectiveDt) {
-		this.effectiveDt = effectiveDt;
+	public void setEffectiveDate(Calendar effectiveDate) {
+		this.effectiveDate = effectiveDate;
 	}
 	public String getProType() {
 		return proType;
