@@ -10,7 +10,6 @@ public class AssignProRange {
 	Calendar effectiveDt;
 	String assignType;
 	String billTypeCode;
-	String proTypeCd;
 	
 	public String getAssignType() {
 		return assignType;
