@@ -9,8 +9,8 @@ public class AssignProRange {
 	String proType;
 	Calendar effectiveDate;
 	String assignType;
-	String billTypeCd;
-	String pickupDate;
+	String billTypeCode;
+	String updateTypeCode;
 	
 	public String getAssignType() {
 		return assignType;
@@ -42,16 +42,16 @@ public class AssignProRange {
 	public void setProSuffix(String proSuffix) {
 		this.proSuffix = proSuffix;
 	}
-	public String getPickupDate() {
-		return pickupDate;
+	public String getBillTypeCode() {
+		return billTypeCode;
 	}
-	public void setPickupDate(String pickupDate) {
-		this.pickupDate = pickupDate;
+	public void setBillTypeCode(String billTypeCode) {
+		this.billTypeCode = billTypeCode;
 	}
-	public String getBillTypeCd() {
-		return billTypeCd;
+	public String getUpdateTypeCode() {
+		return updateTypeCode;
 	}
-	public void setBillTypeCd(String billTypeCd) {
-		this.billTypeCd = billTypeCd;
+	public void setUpdateTypeCode(String updateTypeCode) {
+		this.updateTypeCode = updateTypeCode;
 	}
 }
