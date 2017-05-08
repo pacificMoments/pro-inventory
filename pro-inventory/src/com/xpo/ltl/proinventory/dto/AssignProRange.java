@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class AssignProRange {
 
-	String proPrefix;
+	String proPfx;
 	String proSuffix;
 	String proType;
 	Calendar effectiveDate;
