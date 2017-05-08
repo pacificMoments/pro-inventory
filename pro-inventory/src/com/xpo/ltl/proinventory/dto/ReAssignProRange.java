@@ -5,21 +5,16 @@ import java.util.Calendar;
 public class ReAssignProRange {
 
 	String proPrefix;
-	String proSuffix;
+	String proSfx;
 	String proType;
 	String assignTypeCd;
+	Calendar effectiveDt;
 	
 	public String getProPrefix() {
 		return proPrefix;
 	}
 	public void setProPrefix(String proPrefix) {
 		this.proPrefix = proPrefix;
-	}
-	public String getProSuffix() {
-		return proSuffix;
-	}
-	public void setProSuffix(String proSuffix) {
-		this.proSuffix = proSuffix;
 	}
 	public String getProType() {
 		return proType;
@@ -32,6 +27,18 @@ public class ReAssignProRange {
 	}
 	public void setAssignTypeCd(String assignTypeCd) {
 		this.assignTypeCd = assignTypeCd;
+	}
+	public String getProSfx() {
+		return proSfx;
+	}
+	public void setProSfx(String proSfx) {
+		this.proSfx = proSfx;
+	}
+	public Calendar getEffectiveDt() {
+		return effectiveDt;
+	}
+	public void setEffectiveDt(Calendar effectiveDt) {
+		this.effectiveDt = effectiveDt;
 	}
 
 }
