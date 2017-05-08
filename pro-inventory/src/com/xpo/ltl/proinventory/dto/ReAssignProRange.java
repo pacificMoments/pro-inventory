@@ -5,6 +5,8 @@ public class ReAssignProRange {
 	String proPrefix;
 	String proSuffix;
 	String proType;
+	String assignTypeCd;
+	
 	public String getProPrefix() {
 		return proPrefix;
 	}
@@ -22,6 +24,12 @@ public class ReAssignProRange {
 	}
 	public void setProType(String proType) {
 		this.proType = proType;
+	}
+	public String getAssignTypeCd() {
+		return assignTypeCd;
+	}
+	public void setAssignTypeCd(String assignTypeCd) {
+		this.assignTypeCd = assignTypeCd;
 	}
 
 }
