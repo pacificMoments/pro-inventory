@@ -8,7 +8,7 @@ public class VoidProRange {
 	String proSuffix;
 	String proTyp;
 	Calendar effectiveDate;
-	String assignType;
+	String assign_Type;
 	
 	public String getProSuffix() {
 		return proSuffix;
@@ -28,17 +28,17 @@ public class VoidProRange {
 	public void setEffectiveDate(Calendar effectiveDate) {
 		this.effectiveDate = effectiveDate;
 	}
-	public String getAssignTyp() {
-		return assignType;
-	}
-	public void setAssignTyp(String assignTyp) {
-		this.assignType = assignTyp;
-	}
 	public String getProPfx() {
 		return proPfx;
 	}
 	public void setProPfx(String proPfx) {
 		this.proPfx = proPfx;
+	}
+	public String getAssign_Type() {
+		return assign_Type;
+	}
+	public void setAssign_Type(String assign_Type) {
+		this.assign_Type = assign_Type;
 	}
 
 }
