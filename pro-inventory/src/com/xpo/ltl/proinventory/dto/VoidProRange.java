@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class VoidProRange {
 
-	String proPfx;
+	String proPrefix;
 	String proSuffix;
 	String proTyp;
 	Calendar effectiveDate;
@@ -28,17 +28,17 @@ public class VoidProRange {
 	public void setEffectiveDate(Calendar effectiveDate) {
 		this.effectiveDate = effectiveDate;
 	}
-	public String getProPfx() {
-		return proPfx;
-	}
-	public void setProPfx(String proPfx) {
-		this.proPfx = proPfx;
-	}
 	public String getAssignTyp() {
 		return assignTyp;
 	}
 	public void setAssignTyp(String assignTyp) {
 		this.assignTyp = assignTyp;
+	}
+	public String getProPrefix() {
+		return proPrefix;
+	}
+	public void setProPrefix(String proPrefix) {
+		this.proPrefix = proPrefix;
 	}
 
 }
