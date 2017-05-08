@@ -28,17 +28,17 @@ public class VoidProRange {
 	public void setEffectiveDate(Calendar effectiveDate) {
 		this.effectiveDate = effectiveDate;
 	}
-	public String getAssignTyp() {
-		return assignTyp;
-	}
-	public void setAssignTyp(String assignTyp) {
-		this.assignTyp = assignTyp;
-	}
 	public String getProPrefix() {
 		return proPrefix;
 	}
 	public void setProPrefix(String proPrefix) {
 		this.proPrefix = proPrefix;
+	}
+	public String getAssignType() {
+		return assignType;
+	}
+	public void setAssignType(String assignType) {
+		this.assignType = assignType;
 	}
 
 }
