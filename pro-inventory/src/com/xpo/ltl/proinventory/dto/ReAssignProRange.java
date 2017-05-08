@@ -5,10 +5,10 @@ import java.util.Calendar;
 public class ReAssignProRange {
 
 	String proPrefix;
-	String proSuffix;
+	String proSfx;
 	String proType;
 	String assignTypeCd;
-	Calendar effectiveDate;
+	Calendar effectiveDt;
 	
 	public String getProPrefix() {
 		return proPrefix;
