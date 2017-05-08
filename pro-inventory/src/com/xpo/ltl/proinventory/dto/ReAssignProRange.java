@@ -8,7 +8,6 @@ public class ReAssignProRange {
 	String proSuffix;
 	String proType;
 	String assignTypeCd;
-	Calendar effectiveDate;
 	
 	public String getProPrefix() {
 		return proPrefix;
@@ -33,12 +32,6 @@ public class ReAssignProRange {
 	}
 	public void setAssignTypeCd(String assignTypeCd) {
 		this.assignTypeCd = assignTypeCd;
-	}
-	public Calendar getEffectiveDate() {
-		return effectiveDate;
-	}
-	public void setEffectiveDate(Calendar effectiveDate) {
-		this.effectiveDate = effectiveDate;
 	}
 
 }

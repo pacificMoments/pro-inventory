@@ -4,13 +4,12 @@ import java.util.Calendar;
 
 public class AssignProRange {
 
-	String proPrefix;
+	String proPfx;
 	String proSuffix;
 	String proType;
 	Calendar effectiveDate;
 	String assignType;
 	String billTypeCode;
-	String updateTypeCd;
 	
 	public String getAssignType() {
 		return assignType;
@@ -29,12 +28,6 @@ public class AssignProRange {
 	}
 	public void setProType(String proType) {
 		this.proType = proType;
-	}
-	public String getProPrefix() {
-		return proPrefix;
-	}
-	public void setProPrefix(String proPrefix) {
-		this.proPrefix = proPrefix;
 	}
 	public String getProSuffix() {
 		return proSuffix;
