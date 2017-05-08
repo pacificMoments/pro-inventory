@@ -8,7 +8,7 @@ public class VoidProRange {
 	String proSuffix;
 	String proTyp;
 	Calendar effectiveDate;
-	String assignTyp;
+	String assignType;
 	
 	public String getProSuffix() {
 		return proSuffix;
