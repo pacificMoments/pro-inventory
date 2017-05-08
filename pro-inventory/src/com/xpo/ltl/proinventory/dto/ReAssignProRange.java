@@ -6,6 +6,7 @@ public class ReAssignProRange {
 	String proSuffix;
 	String proType;
 	String assignTypeCd;
+	Calendar effectiveDate;
 	
 	public String getProPrefix() {
 		return proPrefix;
