@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class VoidProRange {
 
-	String proPrefix;
+	String proPfx;
 	String proSuffix;
 	String proTyp;
 	Calendar effectiveDate;
